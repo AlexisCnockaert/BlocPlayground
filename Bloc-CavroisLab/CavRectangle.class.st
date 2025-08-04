@@ -20,7 +20,6 @@ CavRectangle >> initialize [
 
 	super initialize. 
 	self initializeSides. 
-	neighbors := OrderedCollection new
 ]
 
 { #category : 'initialization' }
@@ -82,6 +81,6 @@ CavRectangle >> isTopResizable: aBoolean [
 
 { #category : 'accessing' }
 CavRectangle >> neighbors [
- 
-^ neighbors
+
+	^ neighbors ifNil: [ ^ OrderedCollection new ]
 ]
