@@ -1,3 +1,6 @@
+"
+I'm a grid example using drag n drop events on a rectangle
+"
 Class {
 	#name : 'BlGridSnappingExample',
 	#superclass : 'Object',
