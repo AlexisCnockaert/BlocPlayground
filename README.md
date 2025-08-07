@@ -1,1 +1,1 @@
-A Bloc repository lonked with Cavrois concept
+A Bloc repository linked with Cavrois concept
