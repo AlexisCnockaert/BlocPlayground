@@ -15,6 +15,30 @@ Class {
 	#package : 'Bloc-CavroisLab'
 }
 
+{ #category : 'testing' }
+CavRectangle >> canResizeBottom [
+
+	^ false
+]
+
+{ #category : 'testing' }
+CavRectangle >> canResizeLeft [
+
+	^ false
+]
+
+{ #category : 'testing' }
+CavRectangle >> canResizeRight [
+
+	^ false
+]
+
+{ #category : 'testing' }
+CavRectangle >> canResizeTop [
+
+	^ false
+]
+
 { #category : 'initialization' }
 CavRectangle >> initialize [
 

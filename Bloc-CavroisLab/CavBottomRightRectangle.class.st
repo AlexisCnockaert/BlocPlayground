@@ -4,3 +4,9 @@ Class {
 	#category : 'Bloc-CavroisLab',
 	#package : 'Bloc-CavroisLab'
 }
+
+{ #category : 'testing' }
+CavBottomRightRectangle >> canResizeLeft [
+
+	^ true
+]

@@ -1,18 +1,18 @@
 Class {
-	#name : 'CavTopRectangle',
+	#name : 'CavCenterRectangle',
 	#superclass : 'CavRectangle',
 	#category : 'Bloc-CavroisLab',
 	#package : 'Bloc-CavroisLab'
 }
 
 { #category : 'testing' }
-CavTopRectangle >> canResizeLeft [
+CavCenterRectangle >> canResizeLeft [
 
 	^ true
 ]
 
 { #category : 'testing' }
-CavTopRectangle >> canResizeRight [
+CavCenterRectangle >> canResizeRight [
 
 	^ true
 ]
