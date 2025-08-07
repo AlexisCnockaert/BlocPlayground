@@ -1,8 +1,8 @@
 Class {
 	#name : 'CavRectangleTest',
 	#superclass : 'TestCase',
-	#category : 'Bloc-CavroisLab',
-	#package : 'Bloc-CavroisLab'
+	#category : 'Bloc-CavroisLab-Tests',
+	#package : 'Bloc-CavroisLab-Tests'
 }
 
 { #category : 'tests' }
